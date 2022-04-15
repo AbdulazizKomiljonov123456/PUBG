@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(24, 21, 21);
+}
+
+.conatiner{
+  max-width: 1400px;
+  width: 100%;
+  margin:auto;
+}
+
+.header{
+  background: black;
+}
+.header__logo img{
+  width: 100px;
+  margin-left: 20px;
+}
+
+.header__link{
+  font-family: serif;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+  height: 100px;
+  
+}
+.nav-link{
+  font-family: serif;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid transparent;
+  transition: .3s;
+  padding-bottom: 20px;
+  color: white;  
+}
+
+.header__list{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 20px;
+}
+.header__item{
+  gap: 20px;
+}
+
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header__link:hover{
+  color: rgb(255, 123, 0);
+  border-bottom: 3px solid rgb(255, 123, 0);
+}
+
+
+
+.header-content{
+  height: 900px;
+  background: url(../images/PUBG-mobile-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left{
+  width: 250px;
+  height: 70px;
+  border-radius:15px;
+  font-size: 45px;
+}
+.section1{
+  padding: 20px 15px;
+  background: #292929;
+  box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+}
+.section__item{
+  display: flex;
+  gap: 35px;
+}
+
+
+.section__link{
+  font-family: serif;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.section__link:hover{
+  color: rgb(255, 123, 0);
+  border-bottom: 3px solid rgb(255, 123, 0);
+}
+
+.section2{
+  background: #393636;
+  margin-bottom: 50px;
+}
+
+.section2__cards{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 15px;
+  gap: 30px; 
+}
+
+.section2__card{
+  padding: 15px;
+  background: #0C0C0C;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.PUBG__content{
+  position: relative;
+}
+
+.PUBG__content-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.content-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(105, 207, 23, 0.9);
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.PUBG__content:hover .PUBG__content-inner{
+  opacity: 1;
+}
+
+
+
+.cekto{
+  background-repeat: no-repeat;
+}
+
+
+.footer{
+  background: ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  padding: 37px 0 57px;
+}
+.footer__comment{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__post{
+  color: #9B9B9B;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.footer__btn{
+  background: #544294;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+.footer__btn:hover{
+  background: #fff;
+}
+.footer__btn:hover>a{
+  color: #544294;
+  font-weight: 700;
+}
+.footer__btn-link{
+  color: #ffff;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.footer__contact{
+  display: flex;
+}
+.footer__list{
+  list-style: none;
+  margin-left: 68px;
+}
+.footer__item{
+  margin-bottom: 10px;
+}
+.footer__link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+  
+
+.footer__item>a:hover{
+  color: #D47300;
+}
+
+.PUBG__content-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 51, 255, 0.9);
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
